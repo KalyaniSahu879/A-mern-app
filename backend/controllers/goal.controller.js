@@ -3,6 +3,7 @@
 //@route GET /api/goals
 //private
 const getGoals = (req,res)=>{
+   
     res.status(200).json({message:"getgoals"})
 }
 
@@ -11,6 +12,7 @@ const getGoals = (req,res)=>{
 //@route POST /api/goals
 //private
 const postGoals = (req,res)=>{
+    
     res.status(200).json({message:"postgoals"})
 }
 
